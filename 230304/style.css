@@ -1,0 +1,31 @@
+body{
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.con-1 {
+    background-color: wheat;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.con-2 {
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+}
+.con-3 {
+    background-color: teal;
+    width: 400px;
+    height: 100px;
+    border: 3px dashed white;
+}
