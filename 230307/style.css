@@ -1,0 +1,81 @@
+@keyframes rotatedFigure { 
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  /* !important를 쓰면 해당 속성을 이용한 정의는 무시됨 */
+  
+  @keyframes scaleFigure {
+    0% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(1, 2);
+    }
+    50%,
+    100% {
+      transform: none;
+    }
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: thistle;
+    flex-direction: column;
+  }
+  
+  section {
+    display: flex;
+    margin: 80px;
+  }
+  
+  .figure:first-child {
+    animation: rotatedFigure 1s ease-in-out infinite;
+  }
+  
+  .figure__cir {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: powderblue;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  
+  .figure__rec:first-child {
+    animation-delay: 0s;
+    background-color: mediumvioletred;
+  }
+  
+  .figure__rec:nth-child(2) {
+    animation-delay: 0.1s;
+    background-color: orange;
+  }
+  
+  .figure__rec:nth-child(3) {
+    animation-delay: 0.2s;
+    background-color: yellowgreen;
+  }
+  
+  .figure__rec:nth-child(4) {
+    animation-delay: 0.3s;
+    background-color: blue;
+  }
+  
+  .figure__rec:nth-child(5) {
+    animation-delay: 0.4s;
+    background-color: blueviolet;
+  }
+  .figure__rec {
+    width: 15px;
+    height: 50px;
+    background-color: white;
+    justify-content: space-between;
+    margin: 2px;
+    animation: scaleFigure 1s ease-in-out infinite;
+  }

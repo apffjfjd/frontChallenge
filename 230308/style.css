@@ -1,0 +1,131 @@
+html{
+    width: 100%;
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    width: 30%;
+    border: 5px solid cyan;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1__flex{
+    width: 90%;
+}
+.box1__flex > pre {
+    font-size: 2rem;
+    font-weight: 900;
+    justify-items: start;
+}
+.box2__flex{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.box2-img__flex{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.box2-img__flex > .fa-image {
+    color: white;
+    font-size: 5rem;  
+}
+.box2-info{
+    width: 13.5rem;
+}
+.box2-info > h1{
+    font-size: 2.3rem;
+}
+.box2-info > p{
+    font-size: 0.9rem;
+}
+
+.box3__flex{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+}
+.box3-btn1__flex{
+    width:12rem;
+    height: 4rem;
+    display: flex;
+    padding-left: 3rem;
+    align-items: center;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 15px;
+}
+.box3-btn1__flex > .fa-play{
+    font-size: 2.5rem;
+    margin-right: 1.5rem;
+}
+.box3-btn1__flex > h1{
+    font-size: 2rem;
+}
+.box3-btn2__flex{
+    width:4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+}
+.box3-btn2__flex > .fa-heart{
+    font-size: 2.5rem;
+}
+.box3-btn2__flex > .fa-plus{
+    font-size: 2.5rem;
+}
+
+.box4{
+    justify-content: start;
+    width: 90%;
+    margin: auto;
+}
+.box4-li__flex{
+    width:100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.box4-li-img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 1.5rem;
+}
+.box4 > .box4-li__flex:first-child > .box4-li-img{
+    background-color: orangered;   
+}
+.box4 > .box4-li__flex:nth-child(2) > .box4-li-img{
+    background-color: palevioletred;   
+}
+.box4 > .box4-li__flex:nth-child(3) > .box4-li-img{
+    background-color: blue;   
+}
+.box4 > .box4-li__flex:nth-child(4) > .box4-li-img{
+    background-color: cyan;   
+}
+.box4-li-info{
+    margin-left: 1rem;
+}
+.box4-li-info > h1{
+    font-size: 1.5rem;
+    line-height: 0%;
+}
+
