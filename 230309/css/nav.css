@@ -1,0 +1,18 @@
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .book {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100px;
+    height: 150px;
+    margin: 10px 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #c5a3e0;
+  }
