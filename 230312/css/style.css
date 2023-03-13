@@ -1,0 +1,15 @@
+@import "./variables.css";
+@import "./start.css";
+@import "./reset.css";
+@import "./index.css";
+html {
+  display: flex;
+  justify-content: center;
+  background-color: #161b22;
+}
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  width: 750px;
+}

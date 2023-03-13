@@ -1,18 +1,12 @@
-body{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.start-con1 {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
-.start-con1{
-    background-color: #FAE100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 750px;
-}
-.fa-comment{
-    color: #3C1E1E;
-    font-size: 12rem;
+.fa-comment {
+  color: var(--kakao);
+  font-size: 12rem;
 }
