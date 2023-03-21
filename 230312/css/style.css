@@ -1,7 +1,11 @@
 @import "./variables.css";
-@import "./start.css";
 @import "./reset.css";
+
+@import "./start.css";
 @import "./index.css";
+@import "./friends.css";
+@import "./chat.css";
+
 html {
   display: flex;
   justify-content: center;
@@ -12,4 +16,9 @@ body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
   width: 750px;
+  position: relative;
+}
+main{
+  height: 100%;
+  width: 100%;
 }

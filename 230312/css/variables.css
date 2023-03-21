@@ -4,4 +4,6 @@
   --horizontal-space: 25px;
   --test-border: 1px solid rgba(0, 0, 0, 0.2);
   --basic-radius: 15px;
+  --title-font-size: 3rem;
+  --title-font-weight: 900;
 }

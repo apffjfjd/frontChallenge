@@ -1,0 +1,63 @@
+.chat-con1__flex{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: var(--test-border); */
+    margin: auto;
+    margin-top: 2.5rem;
+}
+.chat-con1__flex:first-child .chat-con1-txt > h1 {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+}
+.chat-con1-icon > i {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.chat-con2__flex{
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+.chat-con2-prf{
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    background-color: var(--yellow);
+}
+
+.chat-con3__flex{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-top: 1px solid gray;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+}
+.chat-con3__flex:nth-child(n) {
+    font-size: 2.5rem;
+}
+.chat-con3-i {
+    position: relative;
+}
+.chat-con3-i > .fa-comment {
+    font-size: 3rem;
+}
+.chat-con3-i > .fa-ellipsis-stroke {
+    font-size: 3rem;
+    color: black;
+}
+.chat-con3-i > .fa-circle {
+    position: absolute;
+    font-size: 0.5rem;
+    color: red;
+    top: 0;
+}

@@ -1,19 +1,28 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  border: var(--test-border);
+  /* border: var(--test-border); */
 }
 .nav__column {
   width: 33%;
-  justify-content: space-between;
+}
+.nav__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.nav__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
 }
 .nav__column > i {
   font-size: 1.5rem;
+  margin: 0.4rem;
 }
 .nav__column > span {
   font-size: 1.5rem;
   font-weight: 900;
+  margin: 0.4rem;
 }
 
 .index-con1 {
