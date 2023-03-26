@@ -1,0 +1,74 @@
+.more-con1__flex{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: var(--test-border); */
+    margin: auto;
+    margin-top: 2.5rem;
+}
+.more-con1__flex:first-child .more-con1-txt > h1 {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+}
+.more-con1-icon > i {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.more-con2__flex{
+    width: 90%;
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin: 1.5rem auto;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.more-con2-prf__flex{
+    display: flex;
+    align-items: center;
+}
+.more-con2-prf-img {
+    width: 7rem;
+    height: 7rem;
+    border: var(--test-border);
+    border-radius: 30%;
+}
+.more-con2__flex > h1{
+    font-size: 2rem;
+    font-weight: var(--title-font-weight);
+    margin-left: 1rem;
+}
+
+
+
+.friends-con5__flex{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-top: 1px solid gray;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+}
+.friends-con5__flex:nth-child(n) {
+    font-size: 2.5rem;
+}
+.friends-con5-i {
+    position: relative;
+}
+.friends-con5-i > .fa-comment {
+    font-size: 3rem;
+}
+.friends-con5-i > .fa-ellipsis-stroke {
+    font-size: 3rem;
+    color: black;
+}
+.friends-con5-i > .fa-circle {
+    position: absolute;
+    font-size: 0.5rem;
+    color: red;
+    top: 0;
+}
